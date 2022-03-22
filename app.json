@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "file-upload-app",
+    "slug": "file-upload-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo (2).png",
+    "splash": {
+      "image": "./assets/logo (2).png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": { 
+      "supportsTablet": true,
+      "bundleIdentifier":"com.harsimran.fileuploadapp"
+    },
+    "android": {
+      "package":"com.harsimran.fileuploadapp",
+      "adaptiveIcon":
+       {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
